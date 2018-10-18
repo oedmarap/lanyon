@@ -15,7 +15,7 @@ All the steps needed to get your Jekyll site up and running can be found here: <
 
 ---
 
-> The documentation below is taken from the original `poole/lanyon` README.
+> The documentation below is taken from the original `poole/lanyon` README.md
 
 ## Lanyon
 
