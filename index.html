@@ -2,19 +2,19 @@
 layout: default
 title: Home
 ---
-
+<!--
+Edited {{ site.baseurl }}/{{ post.url }} to {{ site.baseurl }}{{ post.url }} due to https://github.com/poole/lanyon/issues/108#issuecomment-104944040
+-->
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+<!-- Commented out {{ post.content }} so as to only show title and date in post list; uncomment if you need to show full posts -->
   </div>
   {% endfor %}
 </div>
@@ -35,4 +35,3 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-

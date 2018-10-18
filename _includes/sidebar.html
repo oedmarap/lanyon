@@ -24,15 +24,17 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+<!-- Code above will automatically add pages to menu from the the root directory (e.g. about.md) -->
+<!-- Code below adds individual hyperlinked and non-hyperlinked items below the menu loop -->
+    <a class="sidebar-nav-item" href="https://jekyllrb.com" target="_blank">&#8689; Jekyll</a>
+    <a class="sidebar-nav-item" href="https://www.netlify.com" target="_blank">&#8689; Netlify </a>
+    <a class="sidebar-nav-item" href="https://github.com/oedmarap/lanyon-netlify">GitHub Repo</a>
+<!-- <span class="sidebar-nav-item">"Example menu item"</span> Uncomment for non-hyperlinked menu item -->
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      Copyright &copy; {{ site.time | date: '%Y' }}. All Rights Reserved.
     </p>
   </div>
 </div>

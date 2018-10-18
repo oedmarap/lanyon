@@ -1,32 +1,32 @@
-# Lanyon
+# Lanyon-Netlify
+
+Lanyon-Netlify is a simple fork of the original `poole/lanyon` repo. Rather than using GitHub pages, this fork is instead configured to use [Netlify](https://www.netlify.com) to build, deploy, and host a Jekyll site.  
+
+**Benefits**  
+
+- No need to install Ruby, Bundler, or Jekyll locally; just push changes to your repo and your site will auto update
+- Can be hosted on GitLab to keep your files, posts, and branches private
+- Updated to build correctly for Jekyll v3.0
+- Netlify has a blazing-fast global CDN, with built-in SSL via Let's Encrypt, instant cache invalidation, continuous deployment services, and many other features for managing your Jekyll website  
+
+## Setup
+
+All the steps needed to get your Jekyll site up and running can be found here: <https://lanyon.netlify.com/setup>
+
+---
+
+> The documentation below is taken from the original `poole/lanyon` README.
+
+## Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
 ![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
 
-
-## Contents
-
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
-
-
-## Usage
-
-Lanyon is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
-
-
 ## Options
 
 Lanyon includes some customizable options, typically applied via classes on the `<body>` element.
-
 
 ### Sidebar menu
 
@@ -40,7 +40,6 @@ title: About
 ```
 
 **Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
-
 
 ### Themes
 
@@ -63,7 +62,6 @@ To use a theme, add any one of the available theme classes to the `<body>` eleme
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/master/public/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
-
 ### Reverse layout
 
 ![Lanyon with reverse layout](https://f.cloud.github.com/assets/98681/1825265/be03f2e4-71b0-11e3-89f1-360705524495.png)
@@ -76,7 +74,6 @@ Reverse the page orientation with a single class.
   ...
 </body>
 ```
-
 
 ### Sidebar overlay instead of push
 
@@ -112,23 +109,12 @@ Using Liquid you can also conditionally show the sidebar open on a per-page basi
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
 ```
 
-## Development
-
-Lanyon has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be to submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
 ## Author
 
 **Mark Otto**
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
-
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
-
-<3
