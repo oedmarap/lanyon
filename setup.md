@@ -7,29 +7,29 @@ title: Setup
 
 > In your Netlify panel, create a new site from a Git repo:  
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-01.png"/>
+<img src="/public/images/install-01.png"/>
 
 > Choose GitHub (GitLab is useful if you want to have your website source entirely private):  
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-02.png"/>
+<img src="/public/images/install-02.png"/>
 
 > Netlify will scan the `Gemfile` and `_config.yaml` and detect the correct build parameters:  
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-03.png"/>
+<img src="/public/images/install-03.png"/>
 
 > Your site's deployment will commence using Netlify's infrastructure. It should take less than a minute. In the meantime, you can change your desired site name:  
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-04.png"/>
+<img src="/public/images/install-04.png"/>
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-05.png"/>
+<img src="/public/images/install-05.png"/>
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-06.png"/>
+<img src="/public/images/install-06.png"/>
 
 > After you've configured your site URL your deployment shoud be complete by now. You'll see your associated URL in green and your deployment log now accessible:  
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-07.png"/>
+<img src="/public/images/install-07.png"/>
 
-<img src="https://s3.amazonaws.com/lanyon-netlify/install-08.png"/>
+<img src="/public/images/install-08.png"/>
 
 ---
 
