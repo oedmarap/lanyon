@@ -5,19 +5,19 @@ plugins:
   - jekyll-paginate
 
 # Setup
-title:               Lanyon-Netlify
-tagline:             'A content-first, sliding sidebar theme for Jekyll'
-description:         'Lanyon-Netlify is a simple fork of Lanyon that uses Netlify to build, deploy, and host a Jekyll site.'
-url:                 https://lanyon.netlify.com
-baseurl:             ''
+title:               "Lanyon-Netlify"
+tagline:             "A content-first, sliding sidebar theme for Jekyll"
+description:         "Lanyon-Netlify is a simple fork of Lanyon that uses Netlify to build, deploy, and host a Jekyll site."
+url:                 "https://lanyon.netlify.com"
+baseurl:             ""
 paginate:            5
-paginate_path: "page:num"
+paginate_path:       "page:num"
 
 # About/contact
 author:
-  name:              Paramdeo Singh
-  url:               https://keybase.io/oedmarap
-  email:             paramdeo@paramdeo.com
+  name:              "Paramdeo Singh"
+  url:               "https://paramdeo.com"
+  email:             "paramdeo@paramdeo.com"
 
 # Custom vars
 #version:             1.0.0 // Commented out so user can decide on versioning later. Also not necessary for frontmatter.
